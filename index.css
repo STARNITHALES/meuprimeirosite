@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+
+  color: greenyellow;
+
+}
+
+h1 {
+
+  text-align: left;
+
+}
+
+p {
+
+  text-align: left;
+
+}
+
+#malandronoscortes {
+
+  width: 40%;
+  height: 20%;
+  margin-left: 1%;
+
+}
+
+#texto {
+
+  width: 42%;
+
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: greenyellow;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px greenyellow;
+}
+
+.button:hover {
+  background-color: black
+}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px greenyellow;
+  transform: translateY(4px);
+}
+
+div {
+
+  margin-left: 1%
+}
+
+.malandragens {
+
+  font-size: x-large;
+
+}
+
+#paragrafo1 {
+  margin-left: 1%;
+  font-size: x-large;
+}
+
+#titulo1 {
+  margin-left: 1%;
+}
+
+#lista1 {
+  margin-left: 1%;
+}
+
+ul {
+  margin-left: 1%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+div a:hover {
+  color: white;
+}

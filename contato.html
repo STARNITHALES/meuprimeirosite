@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>exemplos de malandro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <h1><img src="logo-branco.png"></h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <div>
+                        <a href="index.html" class="button">home</a>
+                        <a href="produtos.html" class="button">produtos</a>
+                        <a href="https://www.instagram.com/motorzaoparana/" class="button">insta</a>
+                        <a href="contato.html" class="button">contatos</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="nome">Nome completo:</label>
+            <input id="nome" type="text">
+
+            <label for="email">E-mail:</label>
+            <input id="email" type="text">
+
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="text">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea cols="125" rows="1" id="mensagem"></textarea>
+
+            <div>
+                <p>Como prefere nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+
+            </div>
+
+            <input type="submit" value="Enviar dados">
+        </form>
+    </main>
+
+    <footer>
+        <img src="logo-branco.png">
+        <p>&copy;Copyright barbearia alura - desenvolvido por Thales</p>
+    </footer>
+</body>
