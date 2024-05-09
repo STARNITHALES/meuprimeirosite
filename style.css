@@ -51,6 +51,9 @@ div {
 
 main {
   color: greenyellow;
+  display: block;
+  margin-left: 5%;
+ 
 }
 
 .produtos {
